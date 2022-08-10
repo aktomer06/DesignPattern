@@ -33,6 +33,9 @@ public class Employee {
     public static class EmployeeBuilder{
         private Employee employee = new Employee();
 
+        EmployeeBuilder() {
+            System.out.println("Employee builder is created");
+        }
         public EmployeeBuilder setName(String name)
         {
             employee.name = name;

@@ -59,9 +59,10 @@ public class Student {
 
     public static class StudentBuilder{
         Student student = new Student();
-//        public String getName() {
-//            return name;
-//        }
+
+        StudentBuilder() {
+            System.out.println("Student builder is created");
+        }
 
         public StudentBuilder setName(String name) {
             student.name = name;

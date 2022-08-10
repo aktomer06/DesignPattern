@@ -1,4 +1,4 @@
-package Singleton;
+package Singleton.DB;
 
 public class Database {
     //private static Database database; ->Method1
